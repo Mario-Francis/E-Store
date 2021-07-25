@@ -1,0 +1,614 @@
+@font-face{
+    font-family: cinzel;
+    src: url(../fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf);
+}
+@font-face{
+    font-family: kurale;
+    src: url(../fonts/Kurale/Kurale-Regular.ttf);
+}
+@font-face{
+    font-family: acme;
+    src: url(../fonts/Acme/Acme-Regular.ttf);
+}
+@font-face{
+    font-family: hind;
+    src: url(../fonts/Hind/Hind-Regular.ttf);
+}
+@font-face{
+    font-family: lato;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face{
+    font-family: open_sans;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: quicksand;
+    src: url(../fonts/Quicksand/Quicksand-Regular.ttf);
+}
+@font-face{
+    font-family: philosopher;
+    src: url(../fonts/Philosopher/Philosopher-Regular.ttf);
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+p{
+    margin:0;
+    padding:0;
+}
+.mycolor{
+    background-color: #30302e;
+}
+.mycolor-txt{
+    color: #30302e !important;
+}
+.mycolor-txt a{
+    color: #30302e;
+    border-bottom: 5px solid transparent;
+}
+.mycolor-txt a:hover, .mycolor-txt a:focus{
+    border-bottom: 5px solid #75c0c6;
+}
+.myblue{
+   background-color: #75c0c6;
+}
+.myblue-txt{
+    color:#75c0c6;
+}
+.hd-v{
+    font:normal 30px acme;
+}
+.hd-f{
+    font: normal 21px 'OCR-B 10 BT';
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.navi{
+    box-shadow: none !important;
+    font-family: roboto, verdana;
+}
+/* Parallax */
+.parallax{
+    background:linear-gradient(to bottom, rgba(20,20,20, .2) 0%, rgba(20, 20, 20, 1.0) 100%), url('../images/img5.jpg');
+    background-color:rgba(0, 0, 0, 0.8);
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 90vh;
+}
+/*End of parallax*/
+.parallax h1{
+    font:bold 60px quicksand;
+    margin-top: 60px;
+}
+.parallax h4{
+    max-width: 450px;
+    font-family: 'trebuchet ms';
+}
+.overlap{
+    background: transparent;
+    margin-top: -50px;
+    z-index: 30;
+}
+.ab-page div{
+    padding: 20px 50px !important;
+}
+.overlap h4{
+    font-family: open_sans;
+    font-weight: bold;
+    /* border-bottom: 5px solid #30302e; */
+}
+.overlap h4 span{
+    border-bottom: 3px solid #30302e;
+}
+.overlap p{
+    font:normal 18px open_sans;
+    line-height: 1.5em;
+}
+.sicon{
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+}
+.sicon p{
+    font-size: 30px;
+}
+.sv{
+    font-family: philosopher !important;
+}
+/*Card*/
+.mcard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.mcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.mcontainer {
+    padding: 2px 16px;
+}
+/*End of card*/
+.overlap2{
+    margin-top:-50px;
+    padding-top: 70px;
+}
+.ficon{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.ficon p{
+    font-size: 18px;
+}
+.lognav{
+    max-width: 150px;
+    border: 1px solid #30302e !important;
+    height: 35px;
+    background-color: #fff;
+    color: #30302e !important;
+    padding: 7px 20px !important;
+    font:bold 12px 'open_sans';
+}
+.regnav{
+    max-width: 150px;
+    border: 1px solid #30302e !important;
+    height: 35px;
+    background-color: #30302e;
+    color: #fff !important;
+    padding: 7px 20px !important;
+    font:bold 12px 'open_sans';
+}
+.nopad{
+    padding: 0 !important;
+}
+.hd-nav{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between !important;
+    padding: 0px 20px;
+}
+.gsbtn{
+    background-color: #75c0c6;
+    color: #fff;
+    transition: background-color 1s, color 1s;
+}
+.gsbtn:hover, .gsbtn:focus{
+    background-color: #fff;
+    color: #75c0c6 !important;
+}
+.s-hd{
+    font-family: acme;
+}
+.lab{
+    font:normal 16px verdana;
+    line-height: 40px;
+}
+.dd{
+    width: 60%;
+}
+.txtbx{
+    max-width:70%;
+}
+.res-p{
+    font-family: open_sans;
+}
+.d-title{
+    font:normal 25px lato;
+}
+.d-hr{
+    margin: 5px 0;
+    padding: 0;
+}
+.v-hr{
+    margin: 5px 0;
+    padding: 0;
+    border-color: #fff;
+}
+.loc{
+    font:normal 16px hind !important;
+}
+.vloc{
+    font:normal 16px hind !important;
+}
+.det{
+    font:normal 18px roboto;
+}
+.price{
+    border-radius: 50px;
+    padding: 5px 20px !important;
+}
+.vprice{
+    border-radius: 50px;
+    min-width: 150px;
+    max-width: 200px;
+}
+/* .vbtn{
+    font: normal 14px verdana !important;
+    width:120px;
+} */
+.chk {
+    color: orange;
+}
+/*Pagination*/
+ /* Pagination links */
+ .mpagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid lightgray;
+    margin-left: -5px;
+}
+
+/* Style the active/current link */
+.mpagination a.active {
+    /* background-color: dodgerblue; */
+    background-color: #30302e;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.mpagination a:hover:not(.active) {background-color: #ddd;} 
+/*End of pagination*/
+
+.cap{
+    font: normal 16px hind;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+.vimg{
+    height:16vw;
+    width: 100%;
+}
+.vvimg{
+    height:10vw ;
+    width: 100%;
+}
+.iimg{
+    height:8vw;
+    width: 100%;
+    cursor: pointer !important;
+}
+.mcon{
+    font: normal 18px lato;
+}
+.lbord{
+    border-left: 3px solid #30302e;
+}
+.vmap{
+    font: normal 14px hind !important;
+    padding: 3px 15px !important;
+}
+.cbtn{
+    color:#fff !important;
+}
+.cbtn:hover{
+    color:#777 !important;
+}
+.rbtn{
+    width: auto;
+    min-width: 50%;
+    max-width: 70%;
+    padding: 7px 15px;
+    font-size:16px;
+}
+.ricon{
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    font-size:60px;
+}
+.myinfo{
+    border-left: 5px solid #30302e;
+    background-color: #ddd;
+}
+
+
+
+
+
+/*Side nav*/
+/* The side navigation menu */
+.sidenav {
+    /* height: 100%; 100% Full-height */
+    height: calc(100% - 70px);
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    border-right:1px solid #ebebeb;
+    /* background-color: #111; Black */
+    background-color: #30302e;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 7px 25px;
+    text-decoration: none;
+    font: normal 16px open_sans !important;
+    /* color: #818181; */
+    color:#aaa;
+    display: block;
+    border-bottom:1px solid #444;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    padding:7px 10px;
+    border:0 !important;
+    font-size: 30px !important;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    /* padding: 20px; */
+}
+
+
+/*Side nav*/
+/*Bar*/
+.bcontainer {
+    display: inline-block;
+    cursor: pointer;
+    /* float:left; */
+    padding: 3px 10px;
+    margin-top:10px;
+    border-radius:5px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 7px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+/*End of bar*/
+.snav{
+    width:250px !important;
+}
+.mmain{
+    margin-left:250px;
+}
+.snavv{
+    margin-top:70px;
+}
+.savatar{
+    height:70px;
+    width:70px;
+    border-radius:50%;
+}
+.savatar .av{
+    font-size:50px;
+}
+.aname{
+    font: normal 18px lato;
+}
+.bmenu{
+    position: absolute;
+    bottom:0;
+    width:100%;
+}
+.m-hr{
+    border-top:1px solid #444;
+}
+.ad-ven{
+    font: normal 16px lato;
+    max-width: 200px;
+    border-radius:15px 0 0 15px !important;
+    padding-bottom: 10px !important;
+}
+.action-btn{
+    width:35px;
+    border-width: 1px;
+    margin-top:5px !important;
+}
+.action-btn i{
+    font-size: 14px !important;
+}
+.mode{
+    width:50px;
+    font-size:12px !important;
+}
+.tab td, .tab th{
+    font-size:16px !important;
+}
+.tab td{
+    line-height: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.map-div{
+    height: 300px;
+    border:1px solid #777 !important;
+}
+.upbtn{
+    width:auto;
+    font-size:12px !important;
+    border-width: 1px !important;
+}
+.img-hd{
+    font-size:14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+.img-btn{
+    height:25px;
+    width:50%;
+    margin:0;
+    border-width: 1px;
+    font-size:12px !important;
+}
+.img-btn i{
+    font-size:14px !important;
+}
+.notify p{
+    font:normal 16px philosopher !important; 
+}
+.mytab p{
+    font:normal 16px roboto !important;
+}
+.mytab div{
+    border:1px solid #aaa;
+    border-bottom: 5px solid #aaa;
+    color:#777;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.mytab .active{
+    border:1px solid #30302e;
+    border-bottom: 5px solid #30302e;
+    color:#30302e;
+    cursor:pointer;
+}
+.myinfo-txt{
+    font:italic bold 16px 'trebuchet ms';
+}
+.sprice{
+    border-radius:15px;
+    border:1px solid #aaa;
+    color:#aaa !important;
+}
+.maperr{
+    margin-top: 100px !important;
+    font:normal 16px verdana !important;
+}
+.pac-container{
+    z-index:9999 !important;
+}
+.lsmsg{
+    max-width:60%;
+    font: normal 14px roboto;
+    line-height: 1.3em;
+    border-radius:0 10px 10px 0 !important;
+    border-left: 1px solid #30302e !important;
+}
+.rsmsg{
+    max-width:60%;
+    font: normal 14px roboto;
+    line-height: 1.3em;
+    border-radius:10px 0 0 10px !important;
+    border-right: 1px solid #30302e !important;
+}
+@media only screen and (max-width: 767px){
+    .parallax h1{
+        font-size: 40px;
+    }
+    .lognav, .regnav{
+        max-width:100%;
+    }
+    .hd-nav{
+        width: 100%;
+    }
+    .nav-color{
+        background-color: #30302e;
+    }
+    .nav-color .a{
+        color: #fff !important;
+    }
+    .lognav{
+        border: 1px solid #fff !important;
+        background-color: #30302e;
+        color: #fff !important;
+    }
+    .regnav{
+        border: 1px solid #fff !important;
+        background-color: #fff;
+        color: #30302e !important;
+    }
+    .dd{
+        width: 100% !important;
+    }
+    .txtbx{
+        max-width: 100%;
+    }
+    .snavv{
+        margin-top:0px;
+        z-index: 2000;
+        bottom:0;
+    }
+    .sidenav{
+        height: 100%;
+        border-right:0;
+    }
+    .mmain{
+        margin-left: 0;
+    }
+    .rbtn{
+        max-width:100%;
+    }
+    .lsmsg, rsmsg{
+        max-width:80%;
+    }
+}
+@media only screen and (max-width: 575px){
+    .parallax h1{
+        font-size: 40px;
+        margin-top: 120px;
+    }
+    .vimg, .vvimg, .iimg{
+        height:auto;
+    }
+}
+@media only screen and (max-width: 516px){
+    .parallax h1{
+        font-size: 30px;
+        margin-top: 120px;
+    }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
