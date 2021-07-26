@@ -16,7 +16,7 @@ Features
 Stack
 **************************
 
-- PHP
+- PHP Code Igniter
 - MySql
 - HTML5
 - CSS
