@@ -334,7 +334,7 @@ class Customers extends CI_Controller
         $config['protocol'] = 'smtp';
         $config['smtp_host'] = 'mail.mariofrancis.com.ng';
         $config['smtp_user'] = 'no_reply@mariofrancis.com.ng';
-        $config['smtp_pass'] = 'henriofrancis';
+        $config['smtp_pass'] = '****';
         $config['smtp_port'] = 465;
         $config['mailtype'] = 'html';
         $config['charset'] = 'utf-8';
@@ -459,7 +459,7 @@ class Customers extends CI_Controller
             $config['protocol'] = 'smtp';
             $config['smtp_host'] = 'mail.mariofrancis.com.ng';
             $config['smtp_user'] = 'no_reply@mariofrancis.com.ng';
-            $config['smtp_pass'] = 'henriofrancis';
+            $config['smtp_pass'] = '***';
             $config['smtp_port'] = 465;
             $config['mailtype'] = 'html';
             $config['charset'] = 'utf-8';
